@@ -1,0 +1,24 @@
+{
+    "propertyPanel": {
+        "menu": {
+            "type": "menu",
+            "children": {
+                "chart": {
+                    "name": "图表",
+                    "mode": "single",
+                    "children": {
+                        "title": {
+                            "type": "text",
+                            "name": "标题",
+                            "default": "车辆统计",
+                            "prefix": "",
+                            "suffix": "",
+                            "maxLength": 5,
+                            "placeholder": "请输入标题"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
