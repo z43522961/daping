@@ -1,0 +1,38 @@
+<div class="main" style={{ background: `url(${this.images.background})` }}>
+    <div class="title" style={{ background: `url(${this.images.titleBackground})` }}>
+        <div class="title_icon" style={{ background: `url(${this.images.titleIcon})` }}></div>
+        <span class="title_text">{opts.menu.chart.title}</span>
+    </div>
+
+    <div class="yAxis">
+
+        { this.data.map((x, index) => { if (index % 2 == 0) { return (
+        <div class="axisLabel" style={{ background: `url(${this.images.axisBackground})` }}>
+            <div class="axisLabel_text">
+                {x.name}
+            </div>
+            <div class="axisLabel_value">
+                {x.number}
+            </div>
+            <div class="axisLabel_total">
+                /1000
+            </div>
+        </div>
+        ) } return (
+        <div class="axisLabel" style={{ background: `url(${this.images.axisBackground})` }}>
+            <div class="axisLabel_text">
+                {x.name}
+            </div>
+            <div class="axisLabel_value" style={{ color: '#8BF2FF' }}>
+                {x.number}
+            </div>
+            <div class="axisLabel_total">
+                /1000
+            </div>
+        </div>
+        ) }) }
+    </div>
+    <div class="chart" ref="chart">
+
+    </div>
+</div>

@@ -1,0 +1,30 @@
+.main {
+    width: 498px;
+    height: 320px;
+}
+
+.title {
+    margin-left: 11px;
+    margin-top: 17px;
+    width: 136px;
+    height: 48px;
+}
+
+.title_icon {
+    float: left;
+    width: 18px;
+    height: 18px;
+    position: relative;
+    left: 15px;
+    top: 18px;
+}
+
+.title_text {
+    font-size: 16px;
+    line-height: 48px;
+    position: relative;
+    left: 24px;
+    top: 2px;
+    font-family: SourceHanSansCN-Medium, SourceHanSansCN;
+    font-weight: 500;
+}
