@@ -28,3 +28,48 @@
     font-family: SourceHanSansCN-Medium, SourceHanSansCN;
     font-weight: 500;
 }
+
+.chart {
+    width: 295px;
+    height: 230px;
+    position: absolute;
+    left: 184px;
+    top: 70px;
+}
+
+.axisLabel {
+    position: relative;
+    height: 31px;
+    width: 149px;
+    margin-bottom: 15px;
+}
+
+.yAxis {
+    position: absolute;
+    top: 77px;
+    left: 25px;
+}
+
+.axisLabel_text {
+    font-size: 14px;
+    position: absolute;
+    left: 12px;
+    top: 6px;
+}
+
+.axisLabel_value {
+    position: absolute;
+    left: 54px;
+    top: 3px;
+    color: #FDFF78;
+    font-size: 18px;
+    font-family: 'DINPro-Bold'
+}
+
+.axisLabel_total {
+    position: absolute;
+    right: 11px;
+    font-size: 16px;
+    top: 5px;
+    font-family: 'DINPro-Bold'
+}

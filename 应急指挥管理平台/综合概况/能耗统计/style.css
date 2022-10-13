@@ -1,0 +1,65 @@
+.main {
+    width: 498px;
+    height: 240px;
+    position: relative;
+}
+
+.title {
+    margin-left: 11px;
+    margin-top: 16px;
+    width: 136px;
+    height: 48px;
+}
+
+.water {
+    width: 448px;
+    height: 68px;
+    position: absolute;
+    top: 151px;
+    left: 25px;
+}
+
+.power {
+    width: 448px;
+    height: 68px;
+    position: absolute;
+    top: 75px;
+    left: 25px;
+}
+
+.title_icon {
+    float: left;
+    width: 18px;
+    height: 18px;
+    position: relative;
+    left: 15px;
+    top: 18px;
+}
+
+.title_text {
+    font-size: 16px;
+    line-height: 48px;
+    position: relative;
+    left: 24px;
+    top: 2px;
+    font-family: SourceHanSansCN-Medium, SourceHanSansCN;
+    font-weight: 500;
+}
+
+.content_text {
+    font-size: 14px;
+    position: absolute;
+    top: 25px;
+    left: 123px;
+    line-height: 21px;
+}
+
+.content_number {
+    font-size: 24px;
+    line-height: 31px;
+    color: #2CDBFF;
+    font-family: DINPro-Medium;
+    position: absolute;
+    left: 320px;
+    top: 19px;
+}
