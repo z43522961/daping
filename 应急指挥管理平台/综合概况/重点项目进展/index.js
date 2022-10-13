@@ -80,10 +80,8 @@ return class item extends Base {
     }
 
     render(h, data, opts) {
-        return
-    }
-    created() {
         this.initPaged(this.paged, this.data)
+        return
     }
 
     initPaged(paged, totalData) {
@@ -151,5 +149,13 @@ return class item extends Base {
             e.path[1].style.background = `url(${I05f412191e774839ae37c05fdbd257e8})`
         }
 
+    }
+
+    skipPage(e) {
+        if (e.keyCode === 13) {
+            this.paged.currentPage = e.target.value
+            console.log
+            this.render()
+        }
     }
 }

@@ -28,7 +28,7 @@
         </div>
 
         <div class="skip">
-            <input type='number' value={this.paged.currentPage} />
+            <input type='number' onkeydown={(e)=>{this.skipPage(e)}} value={this.paged.currentPage} />
             <span>&nbsp;&nbsp;/&nbsp;&nbsp;{this.paged.totalPage}</span>
         </div>
 
