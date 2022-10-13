@@ -1,0 +1,44 @@
+.main {
+    margin: 0;
+    padding: 0;
+    width: 498px;
+    height: 180px;
+    position: relative;
+}
+
+.icon1 {
+    margin-top: 35px;
+    margin-left: 32px;
+    margin-bottom: 30px;
+    width: 146px;
+    height: 115px;
+}
+
+.title {
+    width: 177px;
+    height: 42px;
+    position: absolute;
+    right: 76px;
+    top: 27px;
+    font-size: 18px;
+    font-family: Helvetica;
+    text-align: center;
+    line-height: 42px;
+}
+
+.day {
+    width: 267px;
+    height: 62px;
+    position: absolute;
+    right: 28px;
+    bottom: 35px;
+    font-size: 42px;
+    line-height: 62px;
+    text-align: center;
+    letter-spacing: 31px;
+}
+
+.day span {
+    position: relative;
+    left: 10px;
+}

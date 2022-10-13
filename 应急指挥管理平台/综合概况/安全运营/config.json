@@ -1,0 +1,14 @@
+{
+    "propertyPanel": {
+        "menu": {
+            "type": "menu",
+            "children": {
+                "chart": {
+                    "name": "图表",
+                    "mode": "single",
+                    "children": {}
+                }
+            }
+        }
+    }
+}
