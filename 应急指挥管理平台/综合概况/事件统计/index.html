@@ -1,0 +1,37 @@
+<div class="main" style={{ background: `url(${this.images.background})` }}>
+    <div class="title" style={{ background: `url(${this.images.titleBackground})` }}>
+        <div class="title_icon" style={{ background: `url(${this.images.titleIcon})` }}></div>
+        <span class="title_text">{opts.menu.chart.title}</span>
+    </div>
+
+    <div class="left">
+        <div class="legend" style={{ background: `url(${this.images.accident})` }}>
+            <div class="legend_text">{this.data[0].text}</div>
+            <div class="legend_num">{this.data[0].num}</div>
+        </div>
+        <div class="legend" style={{ background: `url(${this.images.polling})` }}>
+            <div class="legend_text">{this.data[1].text}</div>
+            <div class="legend_num">{this.data[1].num}</div>
+        </div>
+        <div class="safe legend" style={{ background: `url(${this.images.safe})` }}>
+            <div class="legend_text">{this.data[2].text}</div>
+            <div class="legend_num">{this.data[2].num}</div>
+        </div>
+
+    </div>
+
+    <div class="right">
+        <div class="legend" style={{ background: `url(${this.images.hiddenDanger})` }}>
+            <div class="legend_text">{this.data[3].text}</div>
+            <div class="legend_num">{this.data[3].num}</div>
+        </div>
+        <div class="legend" style={{ background: `url(${this.images.educate})` }}>
+            <div class="legend_text">{this.data[4].text}</div>
+            <div class="legend_num">{this.data[4].num}</div>
+        </div>
+        <div class="legend" style={{ background: `url(${this.images.manoeuvre})` }}>
+            <div class="legend_text">{this.data[5].text}</div>
+            <div class="legend_num">{this.data[5].num}</div>
+        </div>
+    </div>
+</div>
