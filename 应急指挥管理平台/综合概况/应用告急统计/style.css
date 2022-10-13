@@ -1,0 +1,64 @@
+.main {
+    position: relative;
+    width: 498px;
+    height: 320px;
+}
+
+.title {
+    margin-left: 11px;
+    margin-top: 17px;
+    width: 165px;
+    height: 48px;
+}
+
+.title_icon {
+    float: left;
+    width: 18px;
+    height: 18px;
+    position: relative;
+    left: 15px;
+    top: 18px;
+}
+
+.title_text {
+    font-size: 16px;
+    line-height: 48px;
+    position: relative;
+    left: 24px;
+    top: 2px;
+    font-family: SourceHanSansCN-Medium, SourceHanSansCN;
+    font-weight: 500;
+}
+
+.content {
+    width: 448px;
+    height: 61px;
+    position: absolute;
+    left: 25px;
+    top: 69px;
+}
+
+.content_text {
+    font-size: 14px;
+    position: absolute;
+    left: 65px;
+    top: 25px;
+    line-height: 14px;
+}
+
+.content_number {
+    font-size: 24px;
+    position: absolute;
+    left: 327px;
+    top: 15px;
+    color: #FFF66F;
+    font-family: 'DINPro-Medium'
+}
+
+.chart {
+    position: absolute;
+    left: 25px;
+    height: 143px;
+    width: 448px;
+    top: 136px;
+}
