@@ -1,0 +1,39 @@
+<div class="main" style={{ background: `url(${I618a8e23abf44ecd92d03a93faa327a2})` }}>
+    <div class="title" style={{ background: `url(${I5d525619ed2a4c6180084e8d6091da84})` }}>
+        <div class="title_icon" style={{ background: `url(${I99a2d34c78a74765af83dc04ad10e7e1})` }}></div>
+        <span class="title_text">{this.opts.menu.chart.title}</span>
+    </div>
+    <div class="table">
+        <div class="table_header" id="test" style={{ background: `url(${I05f412191e774839ae37c05fdbd257e8})` }}>
+            <span>项目名称</span>
+            <span>负责人</span>
+            <span>工期</span>
+            <span>施工地点</span>
+        </div>
+        <div class="table_body" id="table_body">
+            { this.paged.currentDatas.map(data => { const style = { background: `url(${I05f412191e774839ae37c05fdbd257e8})`, color:'#FFFFFF' } if (data.project === this.currentProject) { style.color = '#FFF66F' style.background = `url(${I9af7d41a599e457da59c7cc94f52cd57})`
+            } return (
+            <div class="t_content" onmouseover={(e)=> { this.currentProject = data.project this.render() }} onmouseout={(e) => {this.currentProject = null; this.render() }} style={style}>
+                <span>{data.project}</span>
+                <span>{data.functionary}</span>
+                <span>{data.timeLimit}</span>
+                <span>{data.site}</span>
+            </div>
+            ) }) }
+        </div>
+    </div>
+    <div class="paging">
+        <div id="pre" style={{ width: '21px', height: '21px', background: 'rgba(255,255,255,0.2)', 'border-radius': '2px', display: 'flex', 'align-items': 'center' }}>
+            <div style={{ background: `url(${I8a5f07a8f8c84afbab8766da7bfc71e2})`, width: '9px', height: '12px', opacity: 1, margin: 'auto auto', }}></div>
+        </div>
+
+        <div class="skip">
+            <input type='number' value={this.paged.currentPage} />
+            <span>&nbsp;&nbsp;/&nbsp;&nbsp;{this.paged.totalPage}</span>
+        </div>
+
+        <div id="next" style={{ width: '21px', height: '21px', background: 'rgba(255,255,255,0.2)', 'border-radius': '2px', display: 'flex', 'align-items': 'center' }}>
+            <div style={{ background: `url(${I0d78a6b29a2149119381aad821032dbd})`, width: '9px', height: '12px', opacity: 1, margin: 'auto auto', }}></div>
+        </div>
+    </div>
+</div>

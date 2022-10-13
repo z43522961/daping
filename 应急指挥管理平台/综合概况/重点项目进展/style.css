@@ -1,0 +1,101 @@
+.main {
+    width: 498px;
+    height: 315px;
+}
+
+.title {
+    margin-left: 11px;
+    margin-top: 16px;
+    width: 165px;
+    height: 48px;
+}
+
+.title_icon {
+    float: left;
+    width: 18px;
+    height: 18px;
+    position: relative;
+    left: 15px;
+    top: 18px;
+}
+
+.title_text {
+    font-size: 16px;
+    line-height: 48px;
+    position: relative;
+    left: 24px;
+    top: 2px;
+    font-family: SourceHanSansCN-Medium, SourceHanSansCN;
+    font-weight: 500;
+}
+
+.table_header {
+    width: 452px;
+    height: 45px;
+    background-color: red;
+    position: absolute;
+    top: 86px;
+    left: 24px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.table_body {
+    position: absolute;
+    top: 131px;
+    left: 24px;
+}
+
+.table_header span {
+    font-size: 14px;
+    line-height: 45px;
+    color: #2CDBFF;
+}
+
+.t_content {
+    width: 452px;
+    height: 45px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.t_content span {
+    font-size: 14px;
+    line-height: 45px;
+}
+
+.paging {
+    position: absolute;
+    width: 119px;
+    left: 361px;
+    top: 272px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skip input {
+    width: 36px;
+    height: 21px;
+    border-radius: 2px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #BFBFBF;
+    opacity: 0.5;
+    font-size: 14px;
+    color: #2CDBFF;
+    text-align: center;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+.skip span {
+    font-size: 14px;
+    position: relative;
+    bottom: 1px;
+}
