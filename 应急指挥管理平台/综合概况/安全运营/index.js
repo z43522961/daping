@@ -10,7 +10,10 @@ return class item extends Base {
         // 用于控制图表边距，不可删除
         this.padding = [0, 0, 0, 0]
 
-        this.theme = {}
+        this.currentData = [],
+            this.newData = [],
+
+            this.theme = {}
 
         this.data = {
             day: 21438
@@ -21,30 +24,7 @@ return class item extends Base {
 
     render(h, data, opts) {
         this.data.day = this.setDay(this.data.day)
-        return ( <
-            div class = "main"
-            style = {
-                { background: `url(${this.img.I0c32e2ce7cf048578d1edcb22ac326ff})` }
-            } >
-            <
-            img class = "icon1"
-            src = { this.img.I30e46ff479004ee1bb979ee9e6f7942b } > < /img> <
-            div class = "title"
-            style = {
-                { background: `url(${this.img.I35ba61ac50f1455caa8745b6a3152367})` }
-            } >
-            安全运营 / 天 <
-            /div> <
-            div class = "day"
-            style = {
-                { background: `url(${this.img.I3b2fad2259364da69a54b82c05cc4847})` }
-            } >
-            <
-            span > { this.data.day } <
-            /span> < /
-            div > <
-            /div>
-        )
+        return
     }
 
     setDay(data) {
