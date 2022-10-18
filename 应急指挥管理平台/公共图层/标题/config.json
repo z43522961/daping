@@ -1,0 +1,41 @@
+{
+    "propertyPanel": {
+        "menu": {
+            "type": "menu",
+            "children": {
+                "chart": {
+                    "name": "图表",
+                    "mode": "single",
+                    "children": {
+                        "width": {
+                            "type": "number",
+                            "name": "宽度",
+                            "default": 476
+                        },
+                        "height": {
+                            "type": "number",
+                            "name": "高度",
+                            "default": 50
+                        },
+                        "fontSize": {
+                            "type": "number",
+                            "name": "字体大小",
+                            "default": 38
+                        },
+                        "fontWeight": {
+                            "type": "number",
+                            "name": "字体宽度",
+                            "default": 500
+                        },
+                        "text": {
+                            "type": "text",
+                            "name": "标题",
+                            "default": "景区应急指挥管理平台"
+                        }
+                    }
+                }
+            },
+            "default": ""
+        }
+    }
+}

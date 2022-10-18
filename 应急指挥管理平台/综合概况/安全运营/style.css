@@ -5,7 +5,6 @@
     height: 180px;
     position: relative;
 }
-
 .icon1 {
     margin-top: 35px;
     margin-left: 32px;
@@ -26,19 +25,94 @@
     line-height: 42px;
 }
 
-.day {
-    width: 267px;
+.card_main {
     height: 62px;
+    width: 267px;
     position: absolute;
-    right: 28px;
-    bottom: 35px;
-    font-size: 42px;
-    line-height: 62px;
-    text-align: center;
-    letter-spacing: 31px;
+    left: 203px;
+    top: 83px;
+    display: flex;
+    justify-content: space-around;
 }
 
-.day span {
-    position: relative;
-    left: 10px;
+    .card_contain {
+        height: 62px;
+        width: 43px;
+    .card {
+        width: 100%;
+        height: 100%;
+        font-size: 42px;
+        line-height: 62px;
+        position: relative;
+        text-align: center;
+    }
+}
+
+.card {
+.before,
+.after {
+    position: absolute;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+    background-size: 100%;
+}
+.before {
+    top: 0;
+    bottom: 50%;
+    z-index: 1;
+}
+.after {
+    top: 50%;
+    bottom: 0;
+    line-height: 0;
+    z-index: 1;
+}
+
+
+
+.back .after {
+    z-index: 2;
+    transform-origin: 50% 0%;
+    transform: perspective(160px) rotateX(180deg);
+    opacity: 0;
+}
+
+&.go {
+.font .before {
+    display: none;
+}
+
+.back .after {
+    z-index: 2;
+    transform-origin: 50% 0%;
+    opacity: 1;
+    transform: perspective(160px) rotateX(180deg);
+    animation-name: backFlipDown;
+    animation-duration: 0.7s;
+    animation-timing-function: ease-in-out;
+// animation: backFlipDown 0.7s ease-in-out both;
+}
+
+
+}
+
+}
+
+
+.after {
+    background-position-y: bottom !important
+}
+
+
+@keyframes backFlipDown {
+    0% {
+        transform: perspective(160px) rotateX(180deg);
+    }
+
+
+    100% {
+        transform: perspective(160px) rotateX(0deg);
+    }
 }

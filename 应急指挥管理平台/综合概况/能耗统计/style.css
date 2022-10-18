@@ -3,14 +3,12 @@
     height: 240px;
     position: relative;
 }
-
 .title {
     margin-left: 11px;
     margin-top: 16px;
     width: 136px;
     height: 48px;
 }
-
 .water {
     width: 448px;
     height: 68px;
@@ -18,13 +16,13 @@
     top: 151px;
     left: 25px;
 }
-
 .power {
     width: 448px;
     height: 68px;
     position: absolute;
     top: 75px;
     left: 25px;
+
 }
 
 .title_icon {
@@ -63,3 +61,4 @@
     left: 320px;
     top: 19px;
 }
+

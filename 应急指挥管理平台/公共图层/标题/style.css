@@ -1,0 +1,9 @@
+.main {
+    font-family: 'SourceHanSansCN-Medium';
+    color: #FFFFFF;
+    line-height: 57px;
+    letter-spacing: 9px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #17DAFF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

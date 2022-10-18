@@ -29,7 +29,7 @@
     font-weight: 500;
 }
 
-.table_header {
+.table_header{
     width: 452px;
     height: 45px;
     background-color: red;
@@ -53,7 +53,7 @@
 }
 
 .t_content {
-    width: 452px;
+    width:452px;
     height: 45px;
     display: flex;
     justify-content: space-around;
@@ -62,6 +62,7 @@
 .t_content span {
     font-size: 14px;
     line-height: 45px;
+
 }
 
 .paging {
@@ -73,28 +74,30 @@
     justify-content: space-between;
 }
 
-.skip input {
+
+.skip input{
     width: 36px;
     height: 21px;
     border-radius: 2px;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0,0,0,0);
     border: 1px solid #BFBFBF;
     opacity: 0.5;
     font-size: 14px;
     color: #2CDBFF;
     text-align: center;
+
 }
 
 input[type=number] {
-    -moz-appearance: textfield;
+    -moz-appearance:textfield;
 }
-
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
     -webkit-appearance: none;
+
 }
 
-.skip span {
+.skip span{
     font-size: 14px;
     position: relative;
     bottom: 1px;
